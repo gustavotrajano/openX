@@ -1,0 +1,1 @@
+Repositório para criação de Landing Page fictícia utilizando FIGMA. 
