@@ -260,11 +260,17 @@ section h2 {
     height: 650px;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .customers h2 {
     width: 503px;
     height: 71px;
+    margin-bottom: 50px;
+}
+
+.customers-box {
+    align-items: center;
 }
 
 .principal-box {
@@ -274,9 +280,12 @@ section h2 {
     width: 1112.81px;
     background: var(--background-color-two);
     border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .principal-box .quotes {
+    margin-top: 50px;
     font-weight: bold;
     font-size: 100px;
     transform: rotate(5deg);
@@ -286,8 +295,8 @@ section h2 {
     background-clip: text;
 }
 
-.principal-box p {
-    margin-top: 40px;
+.principal-box p:nth-child(2) {
+    margin-bottom: 30px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -299,6 +308,105 @@ section h2 {
 }
 
 .principal-box img {
+    margin-bottom: 30px;
     width: 64px;
     height: 64px;
+}
+
+.principal-box h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--text-primary);
+}
+
+.principal-box p:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    margin-bottom: 70px;
+    color: var(--text-secondary);  
+}
+
+.cliente-picture {
+    margin: 0 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.opportunies {
+    margin-bottom: 100px;
+}
+
+.opportunies-submit {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opportunies-submit-description {
+    flex-direction: column;
+    width: 1106px;
+    height: 165px;
+}
+
+.opportunies-submit-description h2{
+    width: inherit;
+}
+
+.opportunies-submit-description p {
+    color: var(--text-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 1106px;
+    margin-bottom: 20px;
+}
+
+.opportunies-description {
+    margin-top: 20px;
+    width: 1594px;
+    height: 688px;
+    border-radius: 50px;
+    overflow: hidden;
+    background: var(--background-color-two);
+}
+
+.opportunies-description > img {
+    height: 732px;
+    margin-bottom: 20px;
+}
+
+.opportunies-description-right {
+    flex-direction: column;
+    justify-content: center;
+    height: 632px;
+    width: 796px;
+    margin-left: 90px;
+}
+
+.opportunies-description-right > h3 {
+    color: var(--text-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150.4%;
+    margin-bottom: 10px;
+}
+
+.opportunies-description-right > img {
+    height: 64px;
+    width: 64px;
+    margin-top: 50px;
+}
+
+.opportunies-description-right > p {
+    max-width: 700px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150.4%;
+    color: var(--text-secondary);
 }
