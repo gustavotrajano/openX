@@ -459,7 +459,7 @@ section h2 {
     flex-direction: column;
     align-items: center;
     width: 1595px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .video-box iframe {
@@ -474,4 +474,222 @@ section h2 {
     height: 482px;
     background: var(--gradient);
     border-radius: 50px;
+}
+
+.projects {
+    flex-direction: column;
+    width: 1595px;
+    justify-content: space-between;
+}
+
+.projects-submit {
+    width: 1595px;
+    justify-content: space-between;
+}
+
+.projects-submit-description {
+    width: 1100px;
+}
+
+.projects-submit-description h2 {
+    height: 71px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.projects-submit-description p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--text-secondary);
+    margin-bottom: 50px;
+}
+
+.recent-projects {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-box {
+    justify-content: center;
+    align-items: top;
+    width: 450px;
+    height: 440px;
+    border-radius: 25px 25px 0px 0px;
+    background: var(--background-color-two);
+}
+
+.box1 img {
+    width: 300px;
+}
+
+.box2 img {
+    width: 250px;
+}
+
+.box3 img {
+    width: 200px;
+}
+
+.date-description01,
+.date-description02,
+.date-description03 {
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    margin-top: 5px;
+    position: absolute;
+    width: 450px;
+    height: 560px;
+    border-radius: 25px 25px 25px 25px;
+    background: var(--gradient);
+}
+
+.date-text {
+    margin-top: 445px;
+    margin-left: 50px;
+}
+
+.date-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--text-primary);
+}
+
+.date-text strong {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--text-primary);
+}
+
+.choose-plan {
+    flex-direction: column;
+    align-items: center;
+    width: 1595px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+.choose-plan-description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 825px;
+    height: 165px;  
+}
+
+.choose-plan-description h2 {
+    text-align: center;
+    width: 825px;
+}
+
+.choose-plan-description p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.types-plan {
+    margin-top: 80px;
+    width: 1595px;
+    justify-content: space-between;
+}
+
+.types-plan h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: var(--text-primary);
+}
+
+.types-plan p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--text-secondary);
+    width: 482px;
+    margin-top: 15px;
+}
+
+.prices-plan {
+    margin-top: 20px;
+    width: 1595px;
+    justify-content: space-between;
+}
+
+.startup-box,
+.growth-box,
+.enterprise-box {
+    background: var(--background-color-two);
+    width: 482px;
+    height: 490px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.startup-box > p,
+.growth-box > p,
+.enterprise-box > p {
+    width: 402px;
+    color: var(--text-secondary);
+    margin-bottom: 30px;
+}
+
+.startup-box > p > span,
+.growth-box > p > span,
+.enterprise-box > p > span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    margin-right: 12px;
+    color: var(--text-primary);
+}
+
+.line-box {
+    width: 402px;
+    height: 1px;
+    background: var(--text-primary);
+    border-radius: 100px;
+}
+
+.what-have {
+    margin-top: 30px;
+    width: 402px;
+}
+
+.what-have p {
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.what-have p:last-of-type {
+    margin-bottom: 90px;
+    color: var(--text-primary);
+}
+
+.what-have span {
+    margin-right: 25px;
+}
+
+.btn7 {
+    width: 402px;
 }
